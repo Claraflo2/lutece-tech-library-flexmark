@@ -13,13 +13,12 @@ To configure the Flexmark library, follow these steps:
 Include the library in your project dependencies.Initialize the FlexmarkService in your application.
 Example of injection in an XML context file:
 
-<bean id="FlexMarkParser" class="fr.paris.lutece.plugins.flexmark.FlexMarkParser">
-
-<property name="FlexMarkMarkdown" />
-
-<property prefix="MD:" />
-
-</bean>
+```
+  <bean id="FlexMarkParser" class="fr.paris.lutece.plugins.flexmark.FlexMarkParser">
+    <property name="FlexMarkMarkdown" />
+    <property prefix="MD:" />
+  </bean>
+```
 
 # Usage
 
